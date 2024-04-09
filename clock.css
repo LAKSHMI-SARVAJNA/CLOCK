@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+}
+#title_bar{
+height: 200px;
+width: 100%;
+background-color:rgb(134, 173, 245);
+font-size: 60px;
+text-align: center;
+padding-top: 60px;
+
+}
+.quote{
+    font-size: 30px;
+    margin-top:50px ;
+    height: 150px;
+}
+.time{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+  
+}
+.time > div {
+    height: 150px;
+    width: 900px;
+    background-color:rgba(147, 145, 145, 0.893);
+    text-align: center;
+    margin: 30px;
+    padding-top: 90px;
+    font-size: 60px;
+  }
+  #show{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+  
+}
+
+#hour{
+    height: 150px;
+    margin: 30px;
+    width: 900px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 90px;
+    background-color:rgba(147, 145, 145, 0.893);
+}
+#min{
+    height: 150px;
+    margin: 30px;
+    width: 900px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 90px;
+    background-color:rgba(147, 145, 145, 0.893);
+}
+#sec{
+    height: 150px;
+    margin: 30px;
+    width: 900px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 90px;
+    background-color:rgba(147, 145, 145, 0.893);
+}
